@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <i class="fa-solid fa-bars"></i>
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="aboutus" onclick="AboutUs()">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Why We</a></li>
+            <li><a href="#">Test</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-1">
+
+    </section>
+
+    <script>
+        /*sayısal, sözel, true-false, dizi
+        var count = 1
+        var letter = "a"
+        var count2 = 2
+        var letter2 = "b"
+       
+
+       
+        console.log(count + count2)
+        console.log(letter + letter2)
+        
+
+        var dogru = true
+        var yanlis = false
+        
+        console.log(dogru)
+
+     
+        
+        var dizi = ["abc", "def","ghj"]
+        console.log(dizi.length)
+        */
+
+
+        var halil = 15
+        var umutcan = 12
+        
+        //  >, <, &&, ||, <=, >=
+        /*
+            if(koşul ifadesi){
+                //koşul gerçekleşirse
+            }
+     
+        if(halil < umutcan){
+            console.log(" umutcandan halil büyüktür")
+        }else{
+            console.log("halil umutcandan büyüktür")
+        }
+      
+        
+        var halil = 15
+        var umutcan = 18
+        var fatih = 28
+
+        if(halil > umutcan){
+            console.log("halil umutcandan büyüktür")
+
+        }else if(umutcan > fatih){
+            console.log("umutcan fatihden büyüktür")
+        }else{
+            console.log("fatih en yaşlı olanıdı")
+        }
+
+        const base_url = "https://google.com"
+
+        console.log(base_url+"/photos")
+        */
+
+
+        document.getElementById("home").innerHTML = "Anasayfa"
+        
+
+       
+
+        function AboutUs(){
+            document.getElementById("aboutus").innerHTML = "Bizim Hakkımızda"
+        }
+
+    </script>
+</body>
+</html>
